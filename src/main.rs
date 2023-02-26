@@ -84,6 +84,7 @@ fn main() {
         stdout.queue(style::SetForegroundColor(style::Color::Green));
 
         println!("{}", SHAPE);
+        stdout.queue(style::SetBackgroundColor(style::Color::Black));
 
         thread::sleep(Duration::from_secs(3));
         clearscreen::clear().expect("Failed to clean screen!");
