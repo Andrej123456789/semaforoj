@@ -101,6 +101,7 @@ fn main() {
         stdout.queue(style::SetForegroundColor(style::Color::Yellow));
 
         println!("{}", SHAPE);
+        println!("{}", SHAPE);
 
         // GREEN
         stdout.queue(style::SetBackgroundColor(style::Color::Black));
